@@ -1,6 +1,6 @@
 import "./globals.css";
-import AuthProvider from "../context/AuthProvider";
-import Navbar from "../components/Navbar";
+import AuthProvider from "./context/AuthProvider";
+import Navbar from "./components/Navbar";
 import { ReactNode } from "react";
 
 export const metadata = {
