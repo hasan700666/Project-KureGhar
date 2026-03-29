@@ -35,7 +35,7 @@ export default async function Home() {
       {/* ── Hero ── */}
       <div className="relative w-full h-[100vh] overflow-hidden">
         <video
-          src="/367492838_1498414510968164_1604475483158287395_n.mp4"
+          src="/heroVideo.mp4"
           className="absolute top-0 left-0 w-full h-full object-cover"
           autoPlay
           muted
