@@ -4,17 +4,19 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useContext } from "react";
 import { AuthContext, AuthInfo } from "../context/AuthContext";
+import Image from "next/image";
+import logo from '../../public/kureghar.png'
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/about", label: "About us" },
+  { href: "/about", label: "About" },
   { href: "/rooms", label: "Rooms" },
   { href: "/foods", label: "Foods" },
   { href: "/gallery", label: "Gallery" },
   { href: "/services", label: "Services" },
   { href: "/review", label: "Review" },
-  { href: "/find-us", label: "Find us" },
-  { href: "/contact-us", label: "Contact us" },
+  { href: "/find-us", label: "Find" },
+  { href: "/contact-us", label: "Contact" },
 ];
 
 const Navbar = () => {
@@ -61,8 +63,8 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <Link href="/" className="btn btn-ghost text-xl font-bold text-amber-400">
-          KureGhar
+        <Link href="/" className="text-center px-4 text-xl font-bold text-amber-400">
+          <Image src={logo} alt="logo" />
         </Link>
       </div>
 

@@ -33,7 +33,7 @@ export default async function Home() {
   return (
     <div>
       {/* ── Hero ── */}
-      <div className="relative w-full h-[100vh] overflow-hidden">
+      <div className="relative w-full h-screen overflow-hidden">
         <video
           src="/heroVideo.mp4"
           className="absolute top-0 left-0 w-full h-full object-cover"
